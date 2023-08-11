@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaOopThread/JavaOopThread.iml" filepath="$PROJECT_DIR$/JavaOopThread/JavaOopThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectionDemo/collectionDemo.iml" filepath="$PROJECT_DIR$/collectionDemo/collectionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaOopIo/javaOopIo.iml" filepath="$PROJECT_DIR$/javaOopIo/javaOopIo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaOopSocket/javaOopSocket.iml" filepath="$PROJECT_DIR$/javaOopSocket/javaOopSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaSEArray.iml" filepath="$PROJECT_DIR$/javaSEArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaTest/javaTest.iml" filepath="$PROJECT_DIR$/javaTest/javaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaoopException/javaoopException.iml" filepath="$PROJECT_DIR$/javaoopException/javaoopException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaoopExtends/javaoopExtends.iml" filepath="$PROJECT_DIR$/javaoopExtends/javaoopExtends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaoopExtends/javaoopExtends222.iml" filepath="$PROJECT_DIR$/javaoopExtends/javaoopExtends222.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
