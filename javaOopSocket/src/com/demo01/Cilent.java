@@ -15,7 +15,7 @@ public class Cilent {
         DataOutputStream dos = new DataOutputStream(os);
         InputStream is = socket.getInputStream();
         DataInputStream dis = new DataInputStream(is);
-
+        
             while(true){
                 System.out.println("你说：");
                 String str = input.next();

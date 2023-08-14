@@ -8,7 +8,7 @@ public class TestBufferIO {
         //TransTest();
         //DataTest();
         //DataOutTest();
-        //ObjectTest();
+        ObjectTest();
         inputObjectTest();
 
     }
@@ -32,7 +32,7 @@ public class TestBufferIO {
 
     }
     public static void inputObjectTest() throws IOException, ClassNotFoundException {
-        //将学生对象存储到物理文件里
+        //读取
         //创建数据源对象
         File inputFile = new File("F:\\JavaPro\\qwe.txt");
 
@@ -42,7 +42,7 @@ public class TestBufferIO {
 
         //读数据
        Student stu = (Student)ois.readObject();
-        System.out.println(stu);
+       System.out.println(stu);
         //关闭
         ois.close();
     }

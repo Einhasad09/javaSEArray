@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaOopThread/JavaOopThread.iml" filepath="$PROJECT_DIR$/JavaOopThread/JavaOopThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflect/Reflect.iml" filepath="$PROJECT_DIR$/Reflect/Reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/collectionDemo/collectionDemo.iml" filepath="$PROJECT_DIR$/collectionDemo/collectionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaOopIo/javaOopIo.iml" filepath="$PROJECT_DIR$/javaOopIo/javaOopIo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaOopSocket/javaOopSocket.iml" filepath="$PROJECT_DIR$/javaOopSocket/javaOopSocket.iml" />

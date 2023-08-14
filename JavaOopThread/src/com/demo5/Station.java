@@ -26,6 +26,5 @@ public class Station extends  Thread{
                 System.out.println(this.getName()+"卖了一张票，此时票数为"+(ticket));
                 ticket--;
             }
-
     }
 }

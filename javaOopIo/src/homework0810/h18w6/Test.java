@@ -16,24 +16,22 @@ public class Test {
     public static void main(String[] args) throws IOException {
         //创建数据源对象
         File file = new File("F:\\JavaPro");
-        HomeWork06(file);
+        HomeWork07(file);
         System.out.println("总行数为 "+line);
     }
-    public static void HomeWork06(File file) throws IOException {
+
+    private static void HomeWork07(File file) throws IOException {
         File[] files = file.listFiles();
-        System.out.println("获取目录和文件："+Arrays.toString(files));
         if(files!=null){
             for(File file1:files){
                 if(file1.isDirectory()){
-                    HomeWork06(file1);
+                    HomeWork07(file1);
                 }else{
-                    if(file1.getName().toLowerCase().endsWith(".java")){
-                        BufferedReader br = new BufferedReader(new FileReader(file1));
-                        while(br.readLine()!=null){
-                            line++;
-                        }
-                        br.close();
+                    BufferedReader bufferedReader = new BufferedReader(new FileReader(file1));
+                    if(bufferedReader.readLine()!=null){
+                        line++;
                     }
+                    bufferedReader.close();
                 }
             }
         }

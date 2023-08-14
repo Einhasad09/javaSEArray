@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TestCharIO {
     public static void main(String[] args) throws IOException {
         //inputIO();
-        outputIO();
+        //outputIO();
     }
 
     public static void inputIO() throws IOException {

@@ -16,6 +16,9 @@ public class TestHashMap {
         * */
         //key是integer   value是integer
         Map<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < 10; i++) {
+            map.put(i,i+1);
+        }
         map.put(1,23);//添加
         map.put(1,24);
         map.put(2,25);

@@ -17,14 +17,15 @@ public class TestIO01 {
         //2.创建管道，连接数据源
         FileInputStream fis = new FileInputStream(inFile);
         FileOutputStream fos = new FileOutputStream(outFile);
+
         //3.读取数据，同时写入
         //int i = fis.read();
-        byte[] bs = new byte[1024*768];
+        byte[] bs = new byte[1024*768];//一个容器
         int length = fis.read(bs);//返回值是，读到数组的实际元素个数
         int count = 0;
         while(length!=-1){
-            fos.write(bs);
-            length=fis.read(bs);
+            fos.write(bs);//从bs里写出去
+            length=fis.read(bs);//读到bs里面
             count++;
         }
         System.out.println("读取了"+count+"遍");

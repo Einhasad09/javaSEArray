@@ -14,6 +14,7 @@ public class Test {
         File inputFile = new File("F:\\JavaPro");
         File outputFile = new File("F:\\JavaPro\\JavaPro1");
 
+
         FileInputStream fis = new FileInputStream(inputFile);
         FileOutputStream fos = new FileOutputStream(outputFile);
 
