@@ -1,0 +1,41 @@
+jdbc:Java DataBase Connection
+jdbc是用Java编写的类和接口，为关系型数据库提供统一访问，是用于执行SQL语句的API
+
+学生管理系统：
+第一步：创建数据库，创建数据表，手动存储数据！
+    数据库名：dz10b
+    数据表：db_student
+    数据列：stuid--字符串,stuname,age,sex,phone
+
+第二步：创建实体类
+    类名：Student
+    属性：stuid--字符串,stuname,age,sex,phone
+
+第三步：编写jdbc，读取数据表中的数据
+——————————————————————————————————————————————————————————————
+查询：select 什么列 from 什么表 where 列名=值 or/and 列名=值
+select count(*)：有多少条数据——统计行的个数
+删除：delete from 什么表 where 列名=值 or/and 列名=值
+添加：insert into 什么表(列名,列名...) values(?,?,?...)
+修改：update 什么表 set 列名=值，列名=值 where 列名=值 or/and 列名=值
+
+PS.executeUpdate() 增删改
+ps.execute()判断是否成功执行SQL
+ps.executeQuery()查询
+
+SQL注入：在不知道账号密码的情况下能登陆成功
+
+ResultSet是结果集对象
+不方便数据的传递和存储，数据应该放在集合里
+
+对实体类的要求：
+
+代码优化+++参照DAo模型
+实体类 遵守DAO模型
+写项目的流程：
+1.创建java项目
+2.创建src并列的lib 导入jre包
+3.创建实体类
+4.优化jdbc代码--提取工具类 BaseDao
+5.参照Dao模型：
+Dao是直接接触数据库的层---规定了我们对于数据库该有哪些行为操作
