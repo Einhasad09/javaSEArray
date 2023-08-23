@@ -40,6 +40,7 @@ public class TestList {
 
         System.out.println(list.isEmpty());
 
+        System.out.println(list.get(0));
 
 
     }
